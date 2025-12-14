@@ -10,6 +10,9 @@ See the general end user documentation for information on [installing a module](
 
 Requirements: Omeka-S >=4.0.0
 
+- From the zip: Download the last release `PageBlockAdno.zip` from the [list of releases](https://github.com/adnodev/Omeka-S-module-PageBlockAdno/releases), and uncompress it in the modules directory.
+- From the source: Rename the name of the folder of the module to `PageBlockAdno`.
+
 ## Usage 
 
 The module adds an Adno block to site pages. 
