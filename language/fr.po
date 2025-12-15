@@ -11,6 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: config/module.config.php
+msgid "Adno Viewer"
+msgstr "Adno Visualiseur"
+
 #: src/Form/AdnoFieldset.php
 msgid "Adno project URL"
 msgstr "URL du projet Adno"
