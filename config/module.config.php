@@ -4,7 +4,7 @@ namespace PageBlockAdno;
 return [
     'block_layouts' => [
         'invokables' => [
-            'Adno Viewer' => Site\BlockLayout\Adno::class // @translate
+            'Adno' => Site\BlockLayout\Adno::class // @translate
         ],
     ],
     'form_elements' => [

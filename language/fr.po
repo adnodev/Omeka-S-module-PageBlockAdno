@@ -11,10 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: config/module.config.php
-msgid "Adno Viewer"
-msgstr "Adno Visualiseur"
-
 #: src/Form/AdnoFieldset.php
 msgid "Adno project URL"
 msgstr "URL du projet Adno"
@@ -55,3 +51,6 @@ msgstr "Paramètres"
 msgid "Use Adno's URL generator to override project settings. https://w.adno.app/#/link"
 msgstr "Utiliser le Générateur d'URL de Adno pour surcharger les paramètres du projet.  https://w.adno.app/#/link"
 
+#: src/Site/BlockLayout/Adno.php
+msgid "Adno Viewer"
+msgstr "Visionneuse Adno"
