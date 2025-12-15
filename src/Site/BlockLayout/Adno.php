@@ -14,7 +14,7 @@ class Adno extends AbstractBlockLayout
 {
     public function getLabel()
     {
-        return 'Adno Viewer'; public function getLabel()
+        return 'Adno Viewer';
     }
 
     public function form(
