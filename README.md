@@ -30,7 +30,7 @@ The module adds an Adno block to site pages.
 ## ToDo
 
 - [ ] Load an Adno project in IIIF format (bug).
-- [ ] Provide multiple views (embed, slider, list, etc.) based on the model of [Adno views tags](https://github.com/adnodev/adno-views-tag) another companion project from Adno. 
+- [ ] Embed the Adno viewer component. 
 
 ## Feedback 
 
