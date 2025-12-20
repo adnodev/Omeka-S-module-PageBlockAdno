@@ -27,10 +27,9 @@ The module adds an Adno block to site pages.
 
 **Note**: To upload an Adno project to Omeka-S, you must enable the MIME type `application/json` and the extension `.json` in the Security section of the General Settings.
 
-## ToDo
+## Translation
 
-- [ ] Load an Adno project in IIIF format (bug).
-- [ ] Embed the Adno viewer component. 
+You can contribute to the translation of this module into different languages via the [Weblate service](https://hosted.weblate.org/projects/adno/omeka-s-module-adno/).
 
 ## Feedback 
 
