@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PageBlockAdno 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-06 18:30+0000\n"
-"PO-Revision-Date: 2025-12-20 12:08+0000\n"
-"Last-Translator: Thierry Pasquier <thierrypasquier@gmail.com>\n"
+"PO-Revision-Date: 2026-02-18 23:09+0000\n"
+"Last-Translator: Gameking <valafennou@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/adno/omeka-s-"
 "module-adno/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: src/Form/AdnoFieldset.php
 msgid "Adno project URL"
@@ -21,12 +21,12 @@ msgstr "URL du projet Adno"
 #: src/Form/AdnoFieldset.php
 msgid "The address of your Adno instance. If you do not have one, you can use https://w.adno.app."
 msgstr ""
-"L'adresse de votre instance Adno, si vous n'en disposez pas, vous pouvez "
+"L'adresse de votre instance Adno. Si vous n'en disposez pas, vous pouvez "
 "utiliser https://w.adno.app."
 
 #: src/Form/AdnoFieldset.php
 msgid "It is also possible to provide the URL of an image"
-msgstr "Il est aussi possible de passer l'url d'une image"
+msgstr "Il est aussi possible de fournir l'URL d'une image"
 
 #: src/Form/AdnoFieldset.php
 msgid "Width"
