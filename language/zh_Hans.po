@@ -3,55 +3,57 @@ msgstr ""
 "Project-Id-Version: PageBlockAdno 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-06 18:30+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-18 15:09+0000\n"
+"Last-Translator: Shueh-Ying LIAO <shueh-ying.liao@cnrs.fr>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/adno/omeka-s-module-adno/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: src/Form/AdnoFieldset.php
 msgid "Adno project URL"
-msgstr ""
+msgstr "Adno 项目网址"
 
 #: src/Form/AdnoFieldset.php
 msgid "The address of your Adno instance. If you do not have one, you can use https://w.adno.app."
-msgstr ""
+msgstr "您 Adno 实例的地址。若您尚未拥有，可使用 https://w.adno.app。"
 
 #: src/Form/AdnoFieldset.php
 msgid "It is also possible to provide the URL of an image"
-msgstr ""
+msgstr "亦可提供图片的网址"
 
 #: src/Form/AdnoFieldset.php
 msgid "Width"
-msgstr ""
+msgstr "宽度"
 
 #: src/Form/AdnoFieldset.php
 msgid "The width of the container in percentage (e.g., 100%) or in pixels (e.g., 600)."
-msgstr ""
+msgstr "容器的宽度，以百分比（例如 100%）或像素（例如 600）表示。"
 
 #: src/Form/AdnoFieldset.php
 msgid "Height"
-msgstr ""
+msgstr "高度"
 
 #: src/Form/AdnoFieldset.php
 msgid "The height of the container in percentage (e.g., 100%) or in pixels (e.g., 600)."
-msgstr ""
+msgstr "容器的高度，以百分比（例如 100%）或像素（例如 600）表示。"
 
 #: src/Form/AdnoFieldset.php
 msgid "Information"
-msgstr ""
+msgstr "信息"
 
 #: src/Form/AdnoFieldset.php
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: src/Form/AdnoFieldset.php
 msgid "Use Adno's URL generator to override project settings. https://w.adno.app/#/link"
-msgstr ""
+msgstr "使用 Adno 的网址生成器来覆盖项目设置。https://w.adno.app/#/link"
 
 #: src/Site/BlockLayout/Adno.php 
 msgid "Adno Viewer"
-msgstr ""
+msgstr "Adno 查看器"
