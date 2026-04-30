@@ -8,8 +8,6 @@ class AdnoFieldset extends Fieldset
 {
     public function init()
     {
-        $blockIndex = $block ? $block->id() : '__blockIndex__';
-
         $this
              ->add([
                     'name' => 'o:block[__blockIndex__][o:data][instance]',
