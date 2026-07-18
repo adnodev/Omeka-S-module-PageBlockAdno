@@ -22,4 +22,13 @@ return [
             ],
         ],
     ],
+    'navigation' => [
+	'AdminModule' => [
+            [
+                'label' => 'Adno',
+                'uri' => '/modules/PageBlockAdno/asset/dist',
+                'target' => '_blank',
+            ],
+        ],
+    ],
 ];
