@@ -16,7 +16,7 @@ msgid "Adno project URL"
 msgstr ""
 
 #: src/Form/AdnoFieldset.php
-msgid "The address of your Adno instance. If you do not have one, you can use https://w.adno.app."
+msgid "The address of your Adno instance. By default, this uses the static Adno archive bundled with this module (no dependency on the official w.adno.app server)."
 msgstr ""
 
 #: src/Form/AdnoFieldset.php
@@ -51,8 +51,12 @@ msgstr ""
 msgid "Use Adno's URL generator to override project settings. https://w.adno.app/#/link"
 msgstr ""
 
-#: src/Site/BlockLayout/Adno.php 
+#: src/Site/BlockLayout/Adno.php
 msgid "Adno Viewer"
+msgstr ""
+
+#: config/module.config.php
+msgid "Adno"
 msgstr ""
 
 

@@ -19,10 +19,11 @@ msgid "Adno project URL"
 msgstr "அட்னோ திட்ட முகவரி"
 
 #: src/Form/AdnoFieldset.php
-msgid "The address of your Adno instance. If you do not have one, you can use https://w.adno.app."
+msgid ""
+"The address of your Adno instance. By default, this uses the static Adno "
+"archive bundled with this module (no dependency on the official w.adno.app "
+"server)."
 msgstr ""
-"உங்கள் Adno நிகழ்வின் முகவரி. உங்களிடம் ஒன்று இல்லையென்றால், https://w.adno.app ஐப் "
-"பயன்படுத்தலாம்."
 
 #: src/Form/AdnoFieldset.php
 msgid "It is also possible to provide the URL of an image"
@@ -33,18 +34,20 @@ msgid "Width"
 msgstr "அகலம்"
 
 #: src/Form/AdnoFieldset.php
-msgid "The width of the container in percentage (e.g., 100%) or in pixels (e.g., 600)."
-msgstr ""
-"கொள்கலனின் அகலம் சதவீதத்தில் (எ.கா., 100%) அல்லது பிக்சல்களில் (எ.கா., 600)."
+msgid ""
+"The width of the container in percentage (e.g., 100%) or in pixels (e.g., "
+"600)."
+msgstr "கொள்கலனின் அகலம் சதவீதத்தில் (எ.கா., 100%) அல்லது பிக்சல்களில் (எ.கா., 600)."
 
 #: src/Form/AdnoFieldset.php
 msgid "Height"
 msgstr "உயரம்"
 
 #: src/Form/AdnoFieldset.php
-msgid "The height of the container in percentage (e.g., 100%) or in pixels (e.g., 600)."
-msgstr ""
-"கொள்கலனின் உயரம் சதவீதத்தில் (எ.கா., 100%) அல்லது பிக்சல்களில் (எ.கா., 600)."
+msgid ""
+"The height of the container in percentage (e.g., 100%) or in pixels (e.g., "
+"600)."
+msgstr "கொள்கலனின் உயரம் சதவீதத்தில் (எ.கா., 100%) அல்லது பிக்சல்களில் (எ.கா., 600)."
 
 #: src/Form/AdnoFieldset.php
 msgid "Information"
@@ -54,12 +57,10 @@ msgstr "தகவல்"
 msgid "Parameters"
 msgstr "அளவுருக்கள்"
 
-#: src/Form/AdnoFieldset.php
-msgid "Use Adno's URL generator to override project settings. https://w.adno.app/#/link"
-msgstr ""
-"திட்ட அமைப்புகளை மேலெழுத Adno இன் முகவரி செனரேட்டரைப் பயன்படுத்தவும். https://"
-"w.adno.app/#/link"
-
-#: src/Site/BlockLayout/Adno.php 
+#: src/Site/BlockLayout/Adno.php
 msgid "Adno Viewer"
 msgstr "அட்னோ வியூவர்"
+
+#: config/module.config.php
+msgid "Adno"
+msgstr ""

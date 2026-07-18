@@ -19,8 +19,11 @@ msgid "Adno project URL"
 msgstr "Adno 專案網址"
 
 #: src/Form/AdnoFieldset.php
-msgid "The address of your Adno instance. If you do not have one, you can use https://w.adno.app."
-msgstr "您 Adno 實例的位址。若您尚未擁有，可使用 https://w.adno.app。"
+msgid ""
+"The address of your Adno instance. By default, this uses the static Adno "
+"archive bundled with this module (no dependency on the official w.adno.app "
+"server)."
+msgstr ""
 
 #: src/Form/AdnoFieldset.php
 msgid "It is also possible to provide the URL of an image"
@@ -31,7 +34,9 @@ msgid "Width"
 msgstr "寬度"
 
 #: src/Form/AdnoFieldset.php
-msgid "The width of the container in percentage (e.g., 100%) or in pixels (e.g., 600)."
+msgid ""
+"The width of the container in percentage (e.g., 100%) or in pixels (e.g., "
+"600)."
 msgstr "容器的寬度，以百分比（例如 100%）或像素（例如 600）表示。"
 
 #: src/Form/AdnoFieldset.php
@@ -39,7 +44,9 @@ msgid "Height"
 msgstr "高度"
 
 #: src/Form/AdnoFieldset.php
-msgid "The height of the container in percentage (e.g., 100%) or in pixels (e.g., 600)."
+msgid ""
+"The height of the container in percentage (e.g., 100%) or in pixels (e.g., "
+"600)."
 msgstr "容器的高度，以百分比（例如 100%）或像素（例如 600）表示。"
 
 #: src/Form/AdnoFieldset.php
@@ -50,10 +57,10 @@ msgstr "資訊"
 msgid "Parameters"
 msgstr "參數"
 
-#: src/Form/AdnoFieldset.php
-msgid "Use Adno's URL generator to override project settings. https://w.adno.app/#/link"
-msgstr "使用 Adno 的網址產生器來覆寫專案設定。https://w.adno.app/#/link"
-
-#: src/Site/BlockLayout/Adno.php 
+#: src/Site/BlockLayout/Adno.php
 msgid "Adno Viewer"
 msgstr "Adno 檢視器"
+
+#: config/module.config.php
+msgid "Adno"
+msgstr ""

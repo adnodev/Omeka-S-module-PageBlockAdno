@@ -19,10 +19,11 @@ msgid "Adno project URL"
 msgstr "URL del proyecto Adno"
 
 #: src/Form/AdnoFieldset.php
-msgid "The address of your Adno instance. If you do not have one, you can use https://w.adno.app."
+msgid ""
+"The address of your Adno instance. By default, this uses the static Adno "
+"archive bundled with this module (no dependency on the official w.adno.app "
+"server)."
 msgstr ""
-"La dirección de su instancia de Adno. Si no tiene uno, puede utilizar "
-"https://w.adno.app."
 
 #: src/Form/AdnoFieldset.php
 msgid "It is also possible to provide the URL of an image"
@@ -33,7 +34,9 @@ msgid "Width"
 msgstr "Anchura"
 
 #: src/Form/AdnoFieldset.php
-msgid "The width of the container in percentage (e.g., 100%) or in pixels (e.g., 600)."
+msgid ""
+"The width of the container in percentage (e.g., 100%) or in pixels (e.g., "
+"600)."
 msgstr ""
 "La anchura del contenedor en porcentaje (p.ej. 100%) o en píxeles (p.ej., "
 "600)."
@@ -43,7 +46,9 @@ msgid "Height"
 msgstr "Altura"
 
 #: src/Form/AdnoFieldset.php
-msgid "The height of the container in percentage (e.g., 100%) or in pixels (e.g., 600)."
+msgid ""
+"The height of the container in percentage (e.g., 100%) or in pixels (e.g., "
+"600)."
 msgstr ""
 "La altura del contenedor en porcentaje (p.ej., 100%) o en píxeles (p.ej., "
 "600)."
@@ -56,12 +61,10 @@ msgstr "Información"
 msgid "Parameters"
 msgstr "Parámetros"
 
-#: src/Form/AdnoFieldset.php
-msgid "Use Adno's URL generator to override project settings. https://w.adno.app/#/link"
-msgstr ""
-"Utilice las URL del generador Adno para cubrir los ajustes del proyecto. "
-"https://w.adno.app/#/link"
-
-#: src/Site/BlockLayout/Adno.php 
+#: src/Site/BlockLayout/Adno.php
 msgid "Adno Viewer"
 msgstr "Visor Adno"
+
+#: config/module.config.php
+msgid "Adno"
+msgstr ""
