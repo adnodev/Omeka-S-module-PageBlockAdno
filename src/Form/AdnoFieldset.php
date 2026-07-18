@@ -14,7 +14,7 @@ class AdnoFieldset extends Fieldset
                     'type' => Element\Url::class,
                     'options' => [
                         'label' => 'Adno instance URL', // @translate
-                        'info' => 'The address of your Adno instance. If you do not have one, you can use https://w.adno.app.', // @translate
+                        'info' => 'The address of your Adno instance. By default, this uses the static Adno archive bundled with this module (no dependency on the official w.adno.app server).', // @translate
                     ],
                     'attributes' => [
                         'id' => 'adno-instance',

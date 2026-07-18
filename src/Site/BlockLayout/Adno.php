@@ -31,6 +31,13 @@ class Adno extends AbstractBlockLayout
         // Set form values
         $data = $block ? $block->data() : [];
 
+        // Default the Adno instance to the static archive bundled with this
+        // module (asset/dist), so sites don't depend on the official
+        // w.adno.app server unless they explicitly choose to.
+        if (empty($data['instance'])) {
+            $data['instance'] = $view->assetUrl('dist', 'PageBlockAdno', false, false, true);
+        }
+
         $dataForm = [];
         foreach ($data as $key => $value) {
             $dataForm['o:block[__blockIndex__][o:data][' . $key . ']'] = $value;
