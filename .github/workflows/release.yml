@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set module name
+        run: echo "MODULE_NAME=PageBlockAdno" >> $GITHUB_ENV
+
+      - name: Create zip
+        run: |
+          mkdir -p /tmp/build/${{ env.MODULE_NAME }}
+          # copie tout sauf les fichiers git/CI non nécessaires au module
+          rsync -av --exclude='.git' --exclude='.github' --exclude='*.zip' \
+            ./ /tmp/build/${{ env.MODULE_NAME }}/
+          cd /tmp/build
+          zip -r ${{ env.MODULE_NAME }}.zip ${{ env.MODULE_NAME }}
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: /tmp/build/${{ env.MODULE_NAME }}.zip
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
