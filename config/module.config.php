@@ -28,6 +28,7 @@ return [
                 'label' => 'Adno',
                 'uri' => '/modules/PageBlockAdno/asset/dist',
                 'target' => '_blank',
+		'class' => 'o-icon- fa-bullseye',
             ],
         ],
     ],
